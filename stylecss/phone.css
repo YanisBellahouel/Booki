@@ -1,0 +1,261 @@
+@media all and (max-width: 767px)
+{
+   #bloc_page
+   {
+       width: 100%;
+       text-align: center;
+       
+   }
+
+}
+
+@media all and (max-width: 767px)
+{
+
+    #logo-menu
+    {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    nav
+    {
+        flex: 1;
+        margin-bottom: 50px;
+    }
+
+    .menu nav ul
+    {
+        justify-content: center;
+    }
+
+    
+
+    .menu nav a:hover
+    {
+        
+        color: #0065FC;
+        border-top: 0px;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 14px;
+    }
+
+    
+
+    header h1
+    {
+        font-size: 15px;
+    }
+   
+    .barre-recherche
+    {
+        justify-content: center; 
+        display: flex;
+    }
+
+    .button
+    {
+        width: 40px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .button i
+    {
+        opacity: 100%;
+    }
+
+    .txt
+    {
+        display: none;
+    }
+   
+   #filtre
+   {
+       justify-content: center;
+   }
+    #filtre ul
+    {
+        
+        flex-direction: column;
+        
+    }
+
+    #filtre li
+    {
+        margin-top: 5px;
+    }
+
+    .info 
+    {
+        font-size: 14px;
+    }
+}
+
+
+@media all and (max-width: 767px)
+{
+    article
+    {
+       
+        width: 100%;
+        max-width: 700px;
+        height: 2070px;
+        background-color: initial;
+        
+        
+    }
+
+    .card
+    {
+        
+        width: 390px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .card-image img
+    {
+        width: 384px;
+        height: 200px;
+    }
+
+    #hébergement h2
+    {
+        padding-left: 0px;
+        padding-top: 15px;
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 767px)
+{
+    section
+    {
+        flex-direction: column-reverse;
+    }
+
+    aside
+    {
+        margin-right: auto;
+        margin-left: auto;
+        min-width: 440px;
+        height: 480px;
+        
+    }
+
+    .card2
+    {
+        
+        width: 380px;
+        margin-top: 20px;
+    }
+
+    .card-image2 img
+    {
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 767px)
+{
+
+    #activité
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        width: 400px;
+    }
+    .card-activité
+    {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .p1
+    {
+        width: 390px;
+        height: 290px;
+        margin-bottom: 30px;
+    }
+
+    .p1 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+    .p2
+    {
+        width: 390px;
+        height: 290px;
+    }
+
+    .p2 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+    .p3
+    {
+        width: 390px;
+        height: 290px;
+        margin-bottom: 30px;
+    }
+
+    .p3 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+    .p4
+    {
+        width: 390px;
+        height: 290px;
+        margin-bottom: 30px;
+    }
+
+    .p4 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+    .p5
+    {
+        width: 390px;
+        height: 290px;
+    }
+
+    .p5 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+    .p6
+    {
+        width: 390px;
+        height: 290px;
+    }
+
+    .p6 img
+    {
+        width: 390px;
+        height: 260px;
+    }
+}
+
+@media all and (max-width: 767px)
+{
+    footer
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

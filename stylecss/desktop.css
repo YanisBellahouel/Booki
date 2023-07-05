@@ -1,0 +1,576 @@
+@font-face
+{
+    font-family: 'Raleway';
+    /* src: url('static/Raleway-Black.ttf') format('truetype') ; 
+    src: url('static/Raleway-BlackItalic.ttf') format('truetype') ;
+    src: url('static/Raleway-BoldItalic.ttf') format('truetype') ;
+    src: url('static/Raleway-ExtraBold.ttf') format('truetype') ;
+    src: url('static/Raleway-ExtraBoldItalic.ttf') format('truetype') ;
+    src: url('static/Raleway-ExtraLight.ttf') format('truetype') ;
+    src: url('static/Raleway-ExtraLightItalic.ttf') format('truetype');
+    src: url('static/Raleway-Italic.ttf') format('truetype');
+    src: url('static/Raleway-Light.ttf') format('truetype');
+    src: url('static/Raleway-LightItalic.ttf') format('truetype');
+    src: url('static/Raleway-Medium.ttf') format('truetype');
+    src: url('static/Raleway-MediumItalic.ttf') format('truetype'); */
+    src: url('static/Raleway-Regular.ttf') format('truetype');
+    /* src: url('static/Raleway-SemiBold.ttf') format('truetype');
+    src: url('static/Raleway-SemiBoldItalic.ttf') format('truetype');
+    src: url('static/Raleway-Thin.ttf') format('truetype');
+    src: url('static/Raleway-ThinItalic.ttf') format('truetype'); */
+
+}
+
+#bloc_page
+{
+    width: 992px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+
+
+
+header nav, header p
+{
+    font-family: Raleway;
+}
+
+#logo-menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logo img
+{
+    width: 100px;
+    height: 50px;
+}
+
+
+.menu nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.menu nav li
+{
+    margin-right: 40px;
+}
+
+.menu nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 14px;
+}
+
+
+header h1
+{
+   font-family: Raleway;
+    font-size: 20px;
+}
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.location
+{
+    background-color: #f2f2f2;
+    width: 20px;
+    height: 29px;
+    padding-top: 11px;
+    padding-left: 12px;
+    padding-right: 4px;
+    border-radius: 10px 0px 0px 10px;
+
+    
+}
+
+form [type=search]
+{
+    margin-left: 15px;
+    font-family: Raleway;
+    font-weight: bold;
+    width: 175px;
+    height: 40px;
+    border: #f2f2f2;
+}
+
+.button
+{
+    font-family: Raleway;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    width: 100px;
+    height: 40px;
+    background-color: #0065FC;
+    color: white;
+    border: #f2f2f2;
+    
+}
+
+.txt
+{
+    position: relative;
+    right: 7px;
+   
+}
+
+.button i
+{
+    opacity: 0%;
+}
+
+
+
+#filtre 
+{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    right: 35px;
+}
+#filtre ul
+{
+    list-style: none;
+    display: flex;
+}
+
+#filtre li
+{
+    font-family: raleway;
+    margin-right: 20px;
+    padding-right: 15px;
+    border: solid #f2f2f2 2px;
+    border-radius: 25px;
+    display: flex;
+    font-weight: bold;
+    
+}
+#filtre a
+{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#filtre li:hover
+{
+    color: #0065FC;
+    background-color: rgb(206, 220, 250) ;
+    
+    transition: 0.5s;
+
+}
+#filtre li:hover a
+{
+    color: #0065FC;
+}
+
+.filtre-icon
+{
+    color: #0065FC;
+    border: solid 0px white ; 
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(230, 237, 253);
+}
+.filtre
+{
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-left: 45px;
+}
+
+.info i
+{
+    border: solid #f2f2f2;
+    border-radius: 100%;
+    color: #0065FC;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
+
+
+    
+
+
+section
+{
+    display: flex;
+    
+}
+
+article
+{
+    width: 650px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #f2f2f2;  
+}
+
+#hébergement h1
+{
+    font-family: Raleway;
+    font-size: 24px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+#cards
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 175px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+}
+.card a
+{
+    text-decoration: none;
+    color: black;
+}
+.card-image img
+{
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 169px;
+    height: 85px;
+    
+    
+}
+
+.card-title
+{
+    font-family: raleway;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 13px;
+}
+.card-price
+{
+    font-family: raleway;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-size: 13px;
+}
+.card-stars
+{
+    color: #0065FC;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    font-size: 13px;
+}
+
+
+#hébergement h2
+{
+    font-family: raleway;
+    font-size: 20px;
+    padding-left: 37px;
+}
+
+
+
+
+    
+
+
+aside
+{
+    margin-top: 24px;
+    margin-left: 42px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 530px;
+
+}
+
+#populaires h1
+{
+    margin-left: 25px;
+    font-family: raleway;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+}
+
+
+.card2
+{
+    margin-top: 38px;
+    margin-right: 25px; 
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 115px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    
+    
+}
+.card2 a
+{
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+.card-image2 img
+{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 115px;
+    height: 109px;
+}
+
+.card-title2
+{
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.card-price2
+{
+    font-family: raleway;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+   
+.card-stars2
+{
+    color: #0065FC;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+#activité h1
+{
+    font-family: raleway;
+    margin-top: 75px;
+}
+
+
+#activité
+{
+    width: 992px;
+}
+
+.card-activité 
+{
+    display: flex ;
+    
+}
+
+
+.p1 
+{
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 220px;
+    height: 330px;
+    border-radius: 15px;
+    margin-right: 30px;
+    
+}
+
+.p1 img
+{
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 220px;
+   
+}
+
+.p2-p3
+{
+    display: flex;
+    flex-direction: column;
+}
+.p2 
+{ 
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 230px;
+    height: 170px;
+    border-radius: 15px;
+    margin-right: 30px;
+    
+
+}
+
+.p2 img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 230px;
+    height: 140px;
+} 
+
+.p3 
+{ 
+    
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 230px;
+    height: 130px;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.p3 img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 230px;
+    height: 100px;
+}
+  
+.p4 
+{
+  
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 220px;
+    height: 330px;
+    border-radius: 15px;
+    margin-right: 30px;
+   
+}
+
+.p4 img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 220px;
+    height: 300px;
+}
+  
+.p5-p6
+{
+    display: flex;
+    flex-direction: column;
+}
+.p5 
+{ 
+   
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 230px;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.p5 img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 230px;
+    height: 120px;
+}
+  
+.p6 
+{ 
+    
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    width: 230px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.p6 img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 230px;
+    height: 120px;
+}
+
+.titre-photo
+{
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 14px;
+    
+}
+  
+
+
+
+
+footer
+{
+    font-family: raleway;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+}
+footer ul
+{
+    list-style: none;
+    margin-right: 70px;
+    padding-top: 10px;
+}
+
+footer h1
+{
+    font-size: 16px;
+}
+
+footer li
+{
+    margin-top: 8px;
+}
+
+
+
